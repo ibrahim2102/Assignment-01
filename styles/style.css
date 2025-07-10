@@ -8,6 +8,14 @@
     "wdth" 100;
 }
 
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 /* Shared-items */
 .btn-primary{
     background-color: #4E47FF;
@@ -18,6 +26,13 @@
     border-radius: 16px;
     font-size: 12px;
     cursor: pointer;
+    margin-bottom: 150px;
+    /* margin-top: 0px; */
+}
+
+/* Header */
+.header{
+    background-image: url('/images/Hero-bg.png');
 }
 
 /* Nav Styles */
@@ -26,23 +41,139 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 0px 150px;
+}
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
 }
 
 .nav-title{
     font-size: 34px;
-    font-weight: black;
+    font-weight: bold;
     color: #4E47FF;
     width: 99px;
-    height: 51px;
-}
-
-nav ul{
+    height: 0px;
     display: flex;
-    
-    
+    align-items: center;
+    margin-top: -68px;
 }
 
-nav li{
-    list-style: none;
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 43px;
+  padding: 0;
+}
+.navbar li {
+  margin-left: 20px;
+  margin-top: 43px;
+}
+
+/* Banner */
+.banner{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    max-width: 900px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 24px;
+}
+
+.banner-title2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+/* Action Styling */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 141px 116px 155px;
+}
+
+.action-content{
+    max-width: 517px;
+}
+
+
+
+.banner-title{
+
+    font-size: 42px;
+    font-weight: bold;
+    color:#252432;
+
+}
+
+.banner-description{
+    font-size: 24px;
+    color:rgba(0, 0, 0, 0.5);
+}
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+  
+/* Productive-User */
+
+.productive-users-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.productive-users-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 158px;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: -74px;
+    
+}
+.subtitle-detail{
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: -136px;
+    margin-bottom: 0px;
+   
+
+}
+
+.productive-users{
+    background-color: #dedeec;
+    margin: 0 150px;
+    border-radius: 10px;
 }
