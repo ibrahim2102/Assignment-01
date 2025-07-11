@@ -23,6 +23,9 @@
     margin-bottom: 50px;
     /* margin-top: 0px; */
 }
+.btn-primary:hover{
+    background-color: #696b80;
+}
 
 /* Header */
 .header{
@@ -174,6 +177,8 @@ nav{
 }
 
 /* Complement */
+
+
 .cards{
     display: flex;
     justify-content: center;
@@ -320,6 +325,8 @@ nav{
     flex-direction: column;
     gap: 5px; 
     width: 400px;
+    font-family: "Inter";
+    
 }
 
 .get-in-touch-items h1 {
@@ -328,6 +335,9 @@ nav{
     color: #000000;
     text-align: center;
     margin-left: 0px;
+}
+.form-title{
+    margin-bottom: 2px;
 }
 
 .form input[type="email"],
@@ -356,6 +366,7 @@ nav{
     resize: vertical;
     min-height: 120px;
     font-family: inherit;
+    margin-bottom: 0px;
 }
 
 .form input[type="submit"] {
@@ -369,10 +380,57 @@ nav{
     cursor: pointer;
     transition: background-color 0.2s ease;
     align-self: center;
-    margin-top: 10px;
+    margin-top: 2px;
+    width: 100%;
 }
 
 .form input[type="submit"]:hover {
-    background-color: #3d4bff;
+    background-color: #696b80;
 }
+
+
+ /* Footer */
+.footer-info{
+    width: 530px;
+    
+    margin:0 auto;
+    
+}
+
+
+
+.footer-header-title{
+    font-size: 100px;
+    text-align: center;
+    color: #4E47FF;
+    font-weight: bold;
+    font-family: "Inter";
+    margin-bottom: 7px;
+
+}
+
+.footer-header-description{
+    color: #8987A1;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "Inter";
+}
+
+.links-items {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    width: 406px;
+    margin-left: 48px;
+    font-family: "Inter";
+    
+
+}
+
+.links-items a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
 
