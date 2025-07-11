@@ -29,7 +29,7 @@
 
 /* Header */
 .header{
-    background-image: url('/images/Hero-bg.png');
+    background-image: url('./Hero-bg.png');
 }
 
 /* Nav Styles */
